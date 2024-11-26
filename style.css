@@ -1,0 +1,50 @@
+body {
+    background-image: url(images/odin.jpg);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.title {
+    text-align: center;
+    background-color: lightsalmon;
+    font-size: 56px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 12px 0px;
+}
+
+.links {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.sushi {
+    background-color: salmon;
+    padding: 20px 0px;
+}
+
+.pizza {
+    background-color: moccasin;
+    padding: 20px 0px;
+    color: black;
+}
+
+.pasta {
+    background-color: salmon;
+    padding: 20px 0px;
+}
+
+.sushi:hover,
+.pizza:hover,
+.pasta:hover {
+    background-color: rgb(31, 90, 90);
+    color: bisque;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    padding: 50px;
+}
